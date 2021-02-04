@@ -14,7 +14,7 @@ import "./interfaces/IExchanger.sol";
 import "./interfaces/IIssuer.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/pynth
+// /contracts/source/contracts/pynth
 contract Pynth is Owned, IERC20, ExternStateToken, MixinResolver, IPynth {
     /* ========== STATE VARIABLES ========== */
 

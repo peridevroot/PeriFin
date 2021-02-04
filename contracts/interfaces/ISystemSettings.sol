@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/isystemsettings
+// /contracts/source/interfaces/isystemsettings
 interface ISystemSettings {
     // Views
     function priceDeviationThresholdFactor() external view returns (uint);

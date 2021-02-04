@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iflexiblestorage
+// /contracts/source/interfaces/iflexiblestorage
 interface IFlexibleStorage {
     // Views
     function getUIntValue(bytes32 contractName, bytes32 record) external view returns (uint);

@@ -3,7 +3,7 @@ pragma solidity >=0.4.24;
 import "../interfaces/IPynth.sol";
 
 
-// https://docs.perifin.io/contracts/source/interfaces/idebtcache
+// /contracts/source/interfaces/idebtcache
 interface IDebtCache {
     // Views
 

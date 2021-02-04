@@ -51,7 +51,7 @@ interface IIssuerInternalDebtCache {
 }
 
 
-// https://docs.perifin.io/contracts/source/contracts/issuer
+// /contracts/source/contracts/issuer
 contract Issuer is Owned, MixinSystemSettings, IIssuer {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

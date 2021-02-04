@@ -5,7 +5,7 @@ pragma experimental ABIEncoderV2;
 import "./BaseRewardEscrowV2.sol";
 
 
-// https://docs.perifin.io/contracts/RewardEscrow
+// /contracts/RewardEscrow
 contract ImportableRewardEscrowV2 is BaseRewardEscrowV2 {
     /* ========== ADDRESS RESOLVER CONFIGURATION ========== */
     bytes32 private constant CONTRACT_PYNTHETIX_BRIDGE_BASE = "PeriFinBridgeToBase";

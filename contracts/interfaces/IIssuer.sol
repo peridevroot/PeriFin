@@ -3,7 +3,7 @@ pragma solidity >=0.4.24;
 import "../interfaces/IPynth.sol";
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iissuer
+// /contracts/source/interfaces/iissuer
 interface IIssuer {
     // Views
     function anyPynthOrPERIRateIsInvalid() external view returns (bool anyRateInvalid);

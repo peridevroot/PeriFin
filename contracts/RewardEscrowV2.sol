@@ -9,7 +9,7 @@ import "./interfaces/IRewardEscrow.sol";
 import "./interfaces/ISystemStatus.sol";
 
 
-// https://docs.perifin.io/contracts/RewardEscrow
+// /contracts/RewardEscrow
 contract RewardEscrowV2 is BaseRewardEscrowV2 {
     mapping(address => uint256) public totalBalancePendingMigration;
 

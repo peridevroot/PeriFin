@@ -20,7 +20,7 @@ import "./interfaces/IERC20.sol";
 import "./interfaces/ICollateralManager.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/debtcache
+// /contracts/source/contracts/debtcache
 contract DebtCache is Owned, MixinSystemSettings, IDebtCache {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

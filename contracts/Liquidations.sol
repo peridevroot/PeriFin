@@ -17,7 +17,7 @@ import "./interfaces/IIssuer.sol";
 import "./interfaces/ISystemStatus.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/liquidations
+// /contracts/source/contracts/liquidations
 contract Liquidations is Owned, MixinSystemSettings, ILiquidations {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

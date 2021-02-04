@@ -1,7 +1,7 @@
 pragma solidity ^0.5.16;
 
 
-// https://docs.perifin.io/contracts/source/libraries/bytes32setlib/
+// /contracts/source/libraries/bytes32setlib/
 library Bytes32SetLib {
     struct Bytes32Set {
         bytes32[] elements;

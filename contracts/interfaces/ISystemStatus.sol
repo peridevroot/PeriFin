@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/isystemstatus
+// /contracts/source/interfaces/isystemstatus
 interface ISystemStatus {
     struct Status {
         bool canSuspend;

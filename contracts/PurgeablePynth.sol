@@ -10,7 +10,7 @@ import "./SafeDecimalMath.sol";
 import "./interfaces/IExchangeRates.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/purgeablepynth
+// /contracts/source/contracts/purgeablepynth
 contract PurgeablePynth is Pynth {
     using SafeDecimalMath for uint;
 

@@ -19,7 +19,7 @@ import "./interfaces/IExchangeRates.sol";
 
 
 // ETH Collateral v0.3 (pUSD)
-// https://docs.perifin.io/contracts/source/contracts/ethercollateralsusd
+// /contracts/source/contracts/ethercollateralsusd
 contract EtherCollateralpUSD is Owned, Pausable, ReentrancyGuard, MixinResolver, IEtherCollateralpUSD {
     using SafeMath for uint256;
     using SafeDecimalMath for uint256;

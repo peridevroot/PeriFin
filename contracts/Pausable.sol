@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./Owned.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/pausable
+// /contracts/source/contracts/pausable
 contract Pausable is Owned {
     uint public lastPauseTime;
     bool public paused;

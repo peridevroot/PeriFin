@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iexchangerates
+// /contracts/source/interfaces/iexchangerates
 interface IExchangeRates {
     // Structs
     struct RateAndUpdatedTime {

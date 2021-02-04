@@ -17,7 +17,7 @@ import "@chainlink/contracts/src/v0.5/interfaces/FlagsInterface.sol";
 import "./interfaces/IExchanger.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/exchangerates
+// /contracts/source/contracts/exchangerates
 contract ExchangeRates is Owned, MixinSystemSettings, IExchangeRates {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

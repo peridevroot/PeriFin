@@ -1,7 +1,7 @@
 pragma solidity ^0.5.16;
 
 
-// https://docs.perifin.io/contracts/source/contracts/limitedsetup
+// /contracts/source/contracts/limitedsetup
 contract LimitedSetup {
     uint public setupExpiryTime;
 

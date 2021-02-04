@@ -19,7 +19,7 @@ import "./interfaces/IDepot.sol";
 import "./interfaces/IExchangeRates.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/ethercollateral
+// /contracts/source/contracts/ethercollateral
 contract EtherCollateral is Owned, Pausable, ReentrancyGuard, MixinResolver, IEtherCollateral {
     using SafeMath for uint256;
     using SafeDecimalMath for uint256;

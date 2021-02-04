@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/idelegateapprovals
+// /contracts/source/interfaces/idelegateapprovals
 interface IDelegateApprovals {
     // Views
     function canBurnFor(address authoriser, address delegate) external view returns (bool);

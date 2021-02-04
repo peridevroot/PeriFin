@@ -8,7 +8,7 @@ import "./AddressResolver.sol";
 import "./ReadProxy.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/mixinresolver
+// /contracts/source/contracts/mixinresolver
 contract MixinResolver {
     AddressResolver public resolver;
 

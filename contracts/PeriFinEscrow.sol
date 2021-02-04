@@ -13,7 +13,7 @@ import "./interfaces/IERC20.sol";
 import "./interfaces/IPeriFin.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/perifinescrow
+// /contracts/source/contracts/perifinescrow
 contract PeriFinEscrow is Owned, LimitedSetup(8 weeks), IHasBalance {
     using SafeMath for uint;
 

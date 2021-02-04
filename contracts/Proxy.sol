@@ -7,7 +7,7 @@ import "./Owned.sol";
 import "./Proxyable.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/proxy
+// /contracts/source/contracts/proxy
 contract Proxy is Owned {
     Proxyable public target;
 

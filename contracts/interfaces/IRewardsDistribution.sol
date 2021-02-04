@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/irewardsdistribution
+// /contracts/source/interfaces/irewardsdistribution
 interface IRewardsDistribution {
     // Structs
     struct DistributionData {

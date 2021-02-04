@@ -8,7 +8,7 @@ import "./interfaces/IAddressResolver.sol";
 import "./interfaces/IERC20.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/pynthutil
+// /contracts/source/contracts/pynthutil
 contract PynthUtil {
     IAddressResolver public addressResolverProxy;
 

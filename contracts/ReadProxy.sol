@@ -5,7 +5,7 @@ import "./Owned.sol";
 
 // solhint-disable payable-fallback
 
-// https://docs.perifin.io/contracts/source/contracts/readproxy
+// /contracts/source/contracts/readproxy
 contract ReadProxy is Owned {
     address public target;
 

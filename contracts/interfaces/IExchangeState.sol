@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iexchangestate
+// /contracts/source/interfaces/iexchangestate
 interface IExchangeState {
     // Views
     struct ExchangeEntry {

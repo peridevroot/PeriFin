@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./Owned.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/rewardsdistributionrecipient
+// /contracts/source/contracts/rewardsdistributionrecipient
 contract RewardsDistributionRecipient is Owned {
     address public rewardsDistribution;
 

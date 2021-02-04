@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./ExchangeRates.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/exchangerateswithoutinvpricing
+// /contracts/source/contracts/exchangerateswithoutinvpricing
 contract ExchangeRatesWithoutInvPricing is ExchangeRates {
     constructor(
         address _owner,

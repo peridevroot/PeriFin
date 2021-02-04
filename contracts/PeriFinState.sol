@@ -10,7 +10,7 @@ import "./interfaces/IPeriFinState.sol";
 import "./SafeDecimalMath.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/perifinstate
+// /contracts/source/contracts/perifinstate
 contract PeriFinState is Owned, State, LimitedSetup, IPeriFinState {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

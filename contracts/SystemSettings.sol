@@ -10,7 +10,7 @@ import "./interfaces/ISystemSettings.sol";
 import "./SafeDecimalMath.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/systemsettings
+// /contracts/source/contracts/systemsettings
 contract SystemSettings is Owned, MixinSystemSettings, ISystemSettings {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

@@ -14,7 +14,7 @@ import "./interfaces/IPeriFin.sol";
 import "./interfaces/IERC20.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/supplyschedule
+// /contracts/source/contracts/supplyschedule
 contract SupplySchedule is Owned, ISupplySchedule {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./Issuer.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/issuerwithoutliquidations
+// /contracts/source/contracts/issuerwithoutliquidations
 contract IssuerWithoutLiquidations is Issuer {
     constructor(address _owner, address _resolver) public Issuer(_owner, _resolver) {}
 

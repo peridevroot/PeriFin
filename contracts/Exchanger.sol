@@ -65,7 +65,7 @@ interface IExchangerInternalDebtCache {
 }
 
 
-// https://docs.perifin.io/contracts/source/contracts/exchanger
+// /contracts/source/contracts/exchanger
 contract Exchanger is Owned, MixinSystemSettings, IExchanger {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

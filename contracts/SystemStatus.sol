@@ -5,7 +5,7 @@ import "./Owned.sol";
 import "./interfaces/ISystemStatus.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/systemstatus
+// /contracts/source/contracts/systemstatus
 contract SystemStatus is Owned, ISystemStatus {
     mapping(bytes32 => mapping(address => Status)) public accessControl;
 

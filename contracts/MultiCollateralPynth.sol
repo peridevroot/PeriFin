@@ -9,7 +9,7 @@ import "./interfaces/IEtherCollateralpUSD.sol";
 import "./interfaces/IEtherCollateral.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/multicollateralpynth
+// /contracts/source/contracts/multicollateralpynth
 contract MultiCollateralPynth is Pynth {
     /* ========== ADDRESS RESOLVER CONFIGURATION ========== */
 

@@ -8,7 +8,7 @@ import "./interfaces/IVirtualPynth.sol";
 import "./VirtualPynth.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/exchangerwithvirtualpynth
+// /contracts/source/contracts/exchangerwithvirtualpynth
 contract ExchangerWithVirtualPynth is Exchanger {
     constructor(address _owner, address _resolver) public Exchanger(_owner, _resolver) {}
 

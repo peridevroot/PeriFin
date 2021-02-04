@@ -13,7 +13,7 @@ import "./interfaces/IFeePool.sol";
 import "./interfaces/IPeriFin.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/rewardescrow
+// /contracts/source/contracts/rewardescrow
 contract RewardEscrow is Owned, IRewardEscrow {
     using SafeMath for uint;
 

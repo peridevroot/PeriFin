@@ -3,7 +3,7 @@ pragma solidity >=0.4.24;
 import "./IVirtualPynth.sol";
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iexchanger
+// /contracts/source/interfaces/iexchanger
 interface IExchanger {
     // Views
     function calculateAmountAfterSettlement(

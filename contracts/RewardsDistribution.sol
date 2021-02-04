@@ -13,7 +13,7 @@ import "./interfaces/IFeePool.sol";
 import "./interfaces/IRewardsDistribution.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/rewardsdistribution
+// /contracts/source/contracts/rewardsdistribution
 contract RewardsDistribution is Owned, IRewardsDistribution {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

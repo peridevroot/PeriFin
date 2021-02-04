@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iliquidations
+// /contracts/source/interfaces/iliquidations
 interface ILiquidations {
     // Views
     function isOpenForLiquidation(address account) external view returns (bool);

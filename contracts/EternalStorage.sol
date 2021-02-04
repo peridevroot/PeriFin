@@ -5,7 +5,7 @@ import "./Owned.sol";
 import "./State.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/eternalstorage
+// /contracts/source/contracts/eternalstorage
 /**
  * @notice  This contract is based on the code available from this blog
  * https://blog.colony.io/writing-upgradeable-contracts-in-solidity-6743f0eecc88/

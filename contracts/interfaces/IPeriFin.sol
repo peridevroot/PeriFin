@@ -4,7 +4,7 @@ import "./IPynth.sol";
 import "./IVirtualPynth.sol";
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iperifin
+// /contracts/source/interfaces/iperifin
 interface IPeriFin {
     // Views
     function anyPynthOrPERIRateIsInvalid() external view returns (bool anyRateInvalid);

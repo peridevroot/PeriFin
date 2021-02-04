@@ -3,7 +3,7 @@ pragma solidity ^0.5.16;
 import "./Owned.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/dappmaintenance
+// /contracts/source/contracts/dappmaintenance
 
 /**
  * @title DappMaintenance contract.

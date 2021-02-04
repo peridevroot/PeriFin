@@ -11,7 +11,7 @@ import "./SafeDecimalMath.sol";
 import "./TokenState.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/externstatetoken
+// /contracts/source/contracts/externstatetoken
 contract ExternStateToken is Owned, Proxyable {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

@@ -9,7 +9,7 @@ import "./interfaces/IRewardEscrowV2.sol";
 import "./interfaces/ISupplySchedule.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/perifin
+// /contracts/source/contracts/perifin
 contract PeriFin is BasePeriFin {
     // ========== ADDRESS RESOLVER CONFIGURATION ==========
     bytes32 private constant CONTRACT_REWARD_ESCROW = "RewardEscrow";

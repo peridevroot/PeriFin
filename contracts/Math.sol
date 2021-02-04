@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./SafeDecimalMath.sol";
 
 
-// https://docs.perifin.io/contracts/source/libraries/math
+// /contracts/source/libraries/math
 library Math {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

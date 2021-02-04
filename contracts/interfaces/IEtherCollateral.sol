@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iethercollateral
+// /contracts/source/interfaces/iethercollateral
 interface IEtherCollateral {
     // Views
     function totalIssuedPynths() external view returns (uint256);

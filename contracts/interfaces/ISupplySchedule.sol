@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/isupplyschedule
+// /contracts/source/interfaces/isupplyschedule
 interface ISupplySchedule {
     // Views
     function mintableSupply() external view returns (uint);

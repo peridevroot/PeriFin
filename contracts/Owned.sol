@@ -1,7 +1,7 @@
 pragma solidity ^0.5.16;
 
 
-// https://docs.perifin.io/contracts/source/contracts/owned
+// /contracts/source/contracts/owned
 contract Owned {
     address public owner;
     address public nominatedOwner;

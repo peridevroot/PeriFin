@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/idepot
+// /contracts/source/interfaces/idepot
 interface IDepot {
     // Views
     function fundsWallet() external view returns (address payable);

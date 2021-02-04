@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/ipynth
+// /contracts/source/interfaces/ipynth
 interface IPynth {
     // Views
     function currencyKey() external view returns (bytes32);

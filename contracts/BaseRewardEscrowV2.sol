@@ -17,7 +17,7 @@ import "./interfaces/IPeriFin.sol";
 import "./interfaces/IIssuer.sol";
 
 
-// https://docs.perifin.io/contracts/RewardEscrow
+// /contracts/RewardEscrow
 contract BaseRewardEscrowV2 is Owned, IRewardEscrowV2, LimitedSetup(8 weeks), MixinResolver {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

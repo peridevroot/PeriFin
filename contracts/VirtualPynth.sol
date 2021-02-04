@@ -16,7 +16,7 @@ import "./interfaces/IExchanger.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/virtualpynth
+// /contracts/source/contracts/virtualpynth
 contract VirtualPynth is ERC20, IVirtualPynth {
     using SafeMath for uint;
     using SafeDecimalMath for uint;

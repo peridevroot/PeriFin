@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/iperifinstate
+// /contracts/source/interfaces/iperifinstate
 interface IPeriFinState {
     // Views
     function debtLedger(uint index) external view returns (uint);

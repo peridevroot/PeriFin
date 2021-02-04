@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/ierc20
+// /contracts/source/interfaces/ierc20
 interface IERC20 {
     // ERC20 Optional Views
     function name() external view returns (string memory);

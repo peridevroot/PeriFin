@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 
-// https://docs.perifin.io/contracts/source/libraries/safedecimalmath
+// /contracts/source/libraries/safedecimalmath
 library SafeDecimalMath {
     using SafeMath for uint;
 

@@ -8,7 +8,7 @@ interface IPeriFinEscrow {
 }
 
 
-// https://docs.perifin.io/contracts/source/contracts/escrowchecker
+// /contracts/source/contracts/escrowchecker
 contract EscrowChecker {
     IPeriFinEscrow public perifin_escrow;
 

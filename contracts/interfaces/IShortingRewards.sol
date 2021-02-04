@@ -1,7 +1,7 @@
 pragma solidity >=0.4.24;
 
 
-// https://docs.perifin.io/contracts/source/interfaces/istakingrewards
+// /contracts/source/interfaces/istakingrewards
 interface IShortingRewards {
     // Views
     function lastTimeRewardApplicable() external view returns (uint256);

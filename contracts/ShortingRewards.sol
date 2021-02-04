@@ -17,7 +17,7 @@ import "./MixinResolver.sol";
 import "./interfaces/ICollateralErc20.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/stakingrewards
+// /contracts/source/contracts/stakingrewards
 contract ShortingRewards is IShortingRewards, RewardsDistributionRecipient, ReentrancyGuard, Pausable, MixinResolver {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;

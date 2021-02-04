@@ -12,7 +12,7 @@ import "./RewardsDistributionRecipient.sol";
 import "./Pausable.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/stakingrewards
+// /contracts/source/contracts/stakingrewards
 contract StakingRewards is IStakingRewards, RewardsDistributionRecipient, ReentrancyGuard, Pausable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;

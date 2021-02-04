@@ -4,7 +4,7 @@ pragma solidity ^0.5.16;
 import "./BasePeriFin.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/mintableperifin
+// /contracts/source/contracts/mintableperifin
 contract MintablePeriFin is BasePeriFin {
     bytes32 private constant CONTRACT_PYNTHETIX_BRIDGE = "PeriFinBridgeToBase";
 

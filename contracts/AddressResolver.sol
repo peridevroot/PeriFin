@@ -9,7 +9,7 @@ import "./interfaces/IIssuer.sol";
 import "./MixinResolver.sol";
 
 
-// https://docs.perifin.io/contracts/source/contracts/addressresolver
+// /contracts/source/contracts/addressresolver
 contract AddressResolver is Owned, IAddressResolver {
     mapping(bytes32 => address) public repository;
 
