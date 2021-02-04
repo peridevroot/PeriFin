@@ -1,0 +1,96 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IIssuerInternalDebtCache",
+  "sourceName": "contracts/Issuer.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "cacheInfo",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "cachedDebt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "timestamp",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "isInvalid",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "isStale",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "currencyKey",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "currencyRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateCachedPynthDebtWithRate",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "currencyKeys",
+          "type": "bytes32[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "currencyRates",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "updateCachedPynthDebtsWithRates",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "currentlyInvalid",
+          "type": "bool"
+        }
+      ],
+      "name": "updateDebtCacheValidity",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,4571 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/apple/eth/perifin/contracts/AddressResolver.sol": {
+      "lastModificationDate": 1612427523102,
+      "contentHash": "37f75cf3af5fa90e6ca76cfc3286b8af",
+      "sourceName": "contracts/AddressResolver.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/IAddressResolver.sol",
+        "./interfaces/IIssuer.sol",
+        "./MixinResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "AddressResolver"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Owned.sol": {
+      "lastModificationDate": 1612427523026,
+      "contentHash": "6286e227c8bb1fb37cca33f13ee73c64",
+      "sourceName": "contracts/Owned.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Owned"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IAddressResolver.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "5e8519aacb744bb0cd13d80f73e19320",
+      "sourceName": "contracts/interfaces/IAddressResolver.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IAddressResolver"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IIssuer.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "ff50f312912a48b6e352e1350547cb2b",
+      "sourceName": "contracts/interfaces/IIssuer.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPynth.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IIssuer"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/MixinResolver.sol": {
+      "lastModificationDate": 1612427523103,
+      "contentHash": "6ac4ddf131ed96d02d09a6dded0ad142",
+      "sourceName": "contracts/MixinResolver.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./AddressResolver.sol",
+        "./ReadProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "MixinResolver"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IPynth.sol": {
+      "lastModificationDate": 1612427523265,
+      "contentHash": "c6af814d2a387f84f484a03cf89e7e5a",
+      "sourceName": "contracts/interfaces/IPynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IPynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ReadProxy.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "15405c77f8798aff1e060eba289cf4f7",
+      "sourceName": "contracts/ReadProxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ReadProxy"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/TradingRewards.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "a865cccacfd4c511fcfc035a1dfbd095",
+      "sourceName": "contracts/TradingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Pausable.sol",
+        "./MixinResolver.sol",
+        "./Owned.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/ITradingRewards.sol",
+        "./interfaces/IExchanger.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "TradingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Pausable.sol": {
+      "lastModificationDate": 1612427523141,
+      "contentHash": "ceff07efe78b2f878f8e2204e279c2fe",
+      "sourceName": "contracts/Pausable.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol": {
+      "lastModificationDate": 1612426453305,
+      "contentHash": "c495589974b833f34dbe55c9c97daa3d",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ERC20Detailed"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1612426453305,
+      "contentHash": "61c79eda03fb48b32caa7d9a9ad888c2",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1612426453311,
+      "contentHash": "3fde64183ab986aa0f54adc14ab59f14",
+      "sourceName": "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/SafeDecimalMath.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "b96f6f3d7961503ff9b7fe56291a4691",
+      "sourceName": "contracts/SafeDecimalMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SafeDecimalMath"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ITradingRewards.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "02fe92ba5522efc41a15e60da39fe451",
+      "sourceName": "contracts/interfaces/ITradingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ITradingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IExchanger.sol": {
+      "lastModificationDate": 1612427523265,
+      "contentHash": "9a36dd953a1f4f6558859049fae3c63b",
+      "sourceName": "contracts/interfaces/IExchanger.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IVirtualPynth.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IExchanger"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1612426453305,
+      "contentHash": "24226c1e2200cda102c352d79082ffba",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1612426453303,
+      "contentHash": "b468bf60c256e02b80680396ccf969fe",
+      "sourceName": "openzeppelin-solidity/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
+      "lastModificationDate": 1612426453311,
+      "contentHash": "09c56be14609fb51ea5d8073d242ed28",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IVirtualPynth.sol": {
+      "lastModificationDate": 1612424869740,
+      "contentHash": "ec846e72af25ead895411f60baa7f00d",
+      "sourceName": "contracts/interfaces/IVirtualPynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPynth.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IVirtualPynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Pynth.sol": {
+      "lastModificationDate": 1612427523004,
+      "contentHash": "b57cc92977d0c6393718f23579a8e0cd",
+      "sourceName": "contracts/Pynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./ExternStateToken.sol",
+        "./MixinResolver.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IIssuer.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Pynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ExternStateToken.sol": {
+      "lastModificationDate": 1612427523005,
+      "contentHash": "1e27d1ec40b64fd18b476af447d86e22",
+      "sourceName": "contracts/ExternStateToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Proxyable.sol",
+        "./SafeDecimalMath.sol",
+        "./TokenState.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExternStateToken"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1612427523265,
+      "contentHash": "4d91a88df9d38785f4baa9dcfcbc82cd",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ISystemStatus.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "5317d4512a5d3558fbb6f7a9c856a6ed",
+      "sourceName": "contracts/interfaces/ISystemStatus.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ISystemStatus"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IFeePool.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "acf394f53b4ca064f4a0d27496c67022",
+      "sourceName": "contracts/interfaces/IFeePool.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IFeePool"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Proxyable.sol": {
+      "lastModificationDate": 1612427523010,
+      "contentHash": "1e6e7e15f180590707a7612d5d383db9",
+      "sourceName": "contracts/Proxyable.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Proxyable"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/TokenState.sol": {
+      "lastModificationDate": 1612427523148,
+      "contentHash": "2bc92bb324d92d43ca7d843fcce70830",
+      "sourceName": "contracts/TokenState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "TokenState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Proxy.sol": {
+      "lastModificationDate": 1612427523146,
+      "contentHash": "6790d628aa21ed35ddfd25c28924cdd5",
+      "sourceName": "contracts/Proxy.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Proxyable.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/State.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "9bf45a5f5d7afa16ea4ea10e112fb64f",
+      "sourceName": "contracts/State.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "State"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PurgeablePynth.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "269fb20e0c76ad3486a871a7f74d7967",
+      "sourceName": "contracts/PurgeablePynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Pynth.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IExchangeRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PurgeablePynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IExchangeRates.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "ab2212dc31a0372d02fdc2270d224969",
+      "sourceName": "contracts/interfaces/IExchangeRates.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IExchangeRates"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PynthUtil.sol": {
+      "lastModificationDate": 1612427523157,
+      "contentHash": "40e58d2f6849d0b1475428066374b96f",
+      "sourceName": "contracts/PynthUtil.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPynth.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IAddressResolver.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PynthUtil"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IPeriFin.sol": {
+      "lastModificationDate": 1612429314373,
+      "contentHash": "2096be7d4a48e9d2de43e99d5459eb3c",
+      "sourceName": "contracts/interfaces/IPeriFin.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPynth.sol",
+        "./IVirtualPynth.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IPeriFin"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/SupplySchedule.sol": {
+      "lastModificationDate": 1612427523148,
+      "contentHash": "08575becc62af7c2a2fd3d8db83650be",
+      "sourceName": "contracts/SupplySchedule.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/ISupplySchedule.sol",
+        "./SafeDecimalMath.sol",
+        "./Math.sol",
+        "./Proxy.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SupplySchedule"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ISupplySchedule.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "e605e8d6223e0194a668fdde65b36061",
+      "sourceName": "contracts/interfaces/ISupplySchedule.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ISupplySchedule"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Math.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "7c98cbdc7c1f437c541500b184f47987",
+      "sourceName": "contracts/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeDecimalMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/RewardEscrow.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "32c88ec6815508eaaa4c51e28321a8aa",
+      "sourceName": "contracts/RewardEscrow.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/IRewardEscrow.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPeriFin.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "RewardEscrow"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IRewardEscrow.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "e19b5a43f33b9c63a163ddad58603485",
+      "sourceName": "contracts/interfaces/IRewardEscrow.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IRewardEscrow"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/RewardsDistribution.sol": {
+      "lastModificationDate": 1612427523004,
+      "contentHash": "33b6e08c904577e03739dc698147f27e",
+      "sourceName": "contracts/RewardsDistribution.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/IRewardsDistribution.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IRewardsDistribution.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "RewardsDistribution"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IRewardsDistribution.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "e6285b1858e2abcf2e72eb0a52dd5d4d",
+      "sourceName": "contracts/interfaces/IRewardsDistribution.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IRewardsDistribution"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/SystemSettings.sol": {
+      "lastModificationDate": 1612427523068,
+      "contentHash": "ae84670c265e8d9d760083496839e036",
+      "sourceName": "contracts/SystemSettings.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/ISystemSettings.sol",
+        "./SafeDecimalMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SystemSettings"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/MixinSystemSettings.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "2d56565762bbe1e0f72dfe015ce748c7",
+      "sourceName": "contracts/MixinSystemSettings.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MixinResolver.sol",
+        "./interfaces/IFlexibleStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "MixinSystemSettings"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ISystemSettings.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "c1e91c5abe6fd588ef6b48dec826ccc6",
+      "sourceName": "contracts/interfaces/ISystemSettings.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ISystemSettings"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IFlexibleStorage.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "8de92c5ebe29cbcedfeeccce38eb9043",
+      "sourceName": "contracts/interfaces/IFlexibleStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IFlexibleStorage"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PeriFinBridgeToOptimism.sol": {
+      "lastModificationDate": 1612427896996,
+      "contentHash": "f6b3931201b87d47d7afdc31144d8b8a",
+      "sourceName": "contracts/PeriFinBridgeToOptimism.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IPeriFinBridgeToOptimism.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/IRewardEscrowV2.sol",
+        "./interfaces/IPeriFinBridgeToBase.sol",
+        "@eth-optimism/contracts/build/contracts/iOVM/bridge/iOVM_BaseCrossDomainMessenger.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PeriFinBridgeToOptimism"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IPeriFinBridgeToOptimism.sol": {
+      "lastModificationDate": 1612429314369,
+      "contentHash": "63b01ca6a851252d43ef91542e2f7a9b",
+      "sourceName": "contracts/interfaces/IPeriFinBridgeToOptimism.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IPeriFinBridgeToOptimism"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IRewardEscrowV2.sol": {
+      "lastModificationDate": 1612427477521,
+      "contentHash": "6599bab0554128a6e503f0827cba3f3e",
+      "sourceName": "contracts/interfaces/IRewardEscrowV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IRewardEscrowV2",
+        "VestingEntries"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IPeriFinBridgeToBase.sol": {
+      "lastModificationDate": 1612429314371,
+      "contentHash": "11c235c12b947ce5831b75b6f7066292",
+      "sourceName": "contracts/interfaces/IPeriFinBridgeToBase.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IRewardEscrowV2.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IPeriFinBridgeToBase"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/@eth-optimism/contracts/build/contracts/iOVM/bridge/iOVM_BaseCrossDomainMessenger.sol": {
+      "lastModificationDate": 1612427316611,
+      "contentHash": "e5859a8a287f750baf779cd393cf18c8",
+      "sourceName": "@eth-optimism/contracts/build/contracts/iOVM/bridge/iOVM_BaseCrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.5.0 <0.8.0"
+      ],
+      "artifacts": [
+        "iOVM_BaseCrossDomainMessenger"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PeriFinBridgeToBase.sol": {
+      "lastModificationDate": 1612427896999,
+      "contentHash": "cc6feb6d857d98d8a043b483d0bb8800",
+      "sourceName": "contracts/PeriFinBridgeToBase.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IPeriFinBridgeToBase.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IRewardEscrowV2.sol",
+        "./interfaces/IPeriFinBridgeToOptimism.sol",
+        "@eth-optimism/contracts/build/contracts/iOVM/bridge/iOVM_BaseCrossDomainMessenger.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PeriFinBridgeToBase"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PeriFin.sol": {
+      "lastModificationDate": 1612427896997,
+      "contentHash": "57f5894e6716de8fc6f000a2b51384b5",
+      "sourceName": "contracts/PeriFin.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BasePeriFin.sol",
+        "./interfaces/IRewardEscrow.sol",
+        "./interfaces/IRewardEscrowV2.sol",
+        "./interfaces/ISupplySchedule.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PeriFin"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/BasePeriFin.sol": {
+      "lastModificationDate": 1612429314366,
+      "contentHash": "849829d7ef3603c44f65d2d9d812d4ae",
+      "sourceName": "contracts/BasePeriFin.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol",
+        "./ExternStateToken.sol",
+        "./MixinResolver.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IPynth.sol",
+        "./TokenState.sol",
+        "./interfaces/IPeriFinState.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/IRewardsDistribution.sol",
+        "./interfaces/IVirtualPynth.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "BasePeriFin"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IPeriFinState.sol": {
+      "lastModificationDate": 1612429314370,
+      "contentHash": "3b7ed25aaf0ae3266393dae6ab94a17c",
+      "sourceName": "contracts/interfaces/IPeriFinState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IPeriFinState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/RewardEscrowV2.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "38e25f4943ad49ac3a9b6aae4134c277",
+      "sourceName": "contracts/RewardEscrowV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseRewardEscrowV2.sol",
+        "./interfaces/IRewardEscrow.sol",
+        "./interfaces/ISystemStatus.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "RewardEscrowV2"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/BaseRewardEscrowV2.sol": {
+      "lastModificationDate": 1612427523056,
+      "contentHash": "74af1f20e8b0d97a56fb785494368ab1",
+      "sourceName": "contracts/BaseRewardEscrowV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./LimitedSetup.sol",
+        "./interfaces/IRewardEscrowV2.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IIssuer.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "BaseRewardEscrowV2"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/LimitedSetup.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "7e280a17128fea991a3a06b8647cffd0",
+      "sourceName": "contracts/LimitedSetup.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "LimitedSetup"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/SystemStatus.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "0888bb63744f5dca43a1785428308fa8",
+      "sourceName": "contracts/SystemStatus.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/ISystemStatus.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "SystemStatus"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/RewardsDistributionRecipient.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "16de39099922e4e8582efab6dc10c096",
+      "sourceName": "contracts/RewardsDistributionRecipient.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "RewardsDistributionRecipient"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/StakingRewards.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "85c0e0288165c5bc102ceeecc55eca5c",
+      "sourceName": "contracts/StakingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/Math.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./interfaces/IStakingRewards.sol",
+        "./RewardsDistributionRecipient.sol",
+        "./Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "StakingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/math/Math.sol": {
+      "lastModificationDate": 1612426453302,
+      "contentHash": "e225ac1f23b8c7a12ee4d8f296e06047",
+      "sourceName": "openzeppelin-solidity/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IStakingRewards.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "fa2bf2ff806fdd8539662dbc9e3d789d",
+      "sourceName": "contracts/interfaces/IStakingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IStakingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ShortingRewards.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "9f51ce46f887c10baf7f58e39e618613",
+      "sourceName": "contracts/ShortingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/math/Math.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./interfaces/IShortingRewards.sol",
+        "./RewardsDistributionRecipient.sol",
+        "./Pausable.sol",
+        "./MixinResolver.sol",
+        "./interfaces/ICollateralErc20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ShortingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IShortingRewards.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "48cb4e28b547555af1c287d3643f8744",
+      "sourceName": "contracts/interfaces/IShortingRewards.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IShortingRewards"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ICollateralErc20.sol": {
+      "lastModificationDate": 1612424869751,
+      "contentHash": "ddb5d8092fbdba74d823efbfb10fd404",
+      "sourceName": "contracts/interfaces/ICollateralErc20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ICollateralErc20"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralErc20.sol": {
+      "lastModificationDate": 1612424869673,
+      "contentHash": "66d352c29bdbec77ac8ea5bc74604a19",
+      "sourceName": "contracts/CollateralErc20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Collateral.sol",
+        "./interfaces/ICollateralErc20.sol",
+        "./CollateralState.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralErc20"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Collateral.sol": {
+      "lastModificationDate": 1612424869672,
+      "contentHash": "608d9c8ee0572b70b15c4028a34574ce",
+      "sourceName": "contracts/Collateral.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/ICollateralLoan.sol",
+        "./SafeDecimalMath.sol",
+        "./CollateralState.sol",
+        "./interfaces/ICollateralManager.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IShortingRewards.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Collateral"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralState.sol": {
+      "lastModificationDate": 1612424869679,
+      "contentHash": "0c18cfd01f9bbbe8b7d0eaf88c7a11aa",
+      "sourceName": "contracts/CollateralState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol",
+        "./interfaces/ICollateralLoan.sol",
+        "./SafeDecimalMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ICollateralLoan.sol": {
+      "lastModificationDate": 1612424869750,
+      "contentHash": "bb164408817fe1e9cc7293d73d1dc39c",
+      "sourceName": "contracts/interfaces/ICollateralLoan.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ICollateralLoan"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ICollateralManager.sol": {
+      "lastModificationDate": 1612424869747,
+      "contentHash": "9c7675d3f44ba6a35020ca82cebe5f2c",
+      "sourceName": "contracts/interfaces/ICollateralManager.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ICollateralManager"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralShort.sol": {
+      "lastModificationDate": 1612424869677,
+      "contentHash": "2edd62e572a517e65227a4afec3ce23f",
+      "sourceName": "contracts/CollateralShort.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Collateral.sol",
+        "./CollateralState.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralShort"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralEth.sol": {
+      "lastModificationDate": 1612426816850,
+      "contentHash": "4f91ca47e94a36793d47606ee25da6ed",
+      "sourceName": "contracts/CollateralEth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Collateral.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./interfaces/ICollateralEth.sol",
+        "./CollateralState.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralEth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ICollateralEth.sol": {
+      "lastModificationDate": 1612424869748,
+      "contentHash": "ced5b5b6d970176a92cbbbbd5bea1449",
+      "sourceName": "contracts/interfaces/ICollateralEth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ICollateralEth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EtherCollateralpUSD.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "fbc244971c5793056e4b438a402470f3",
+      "sourceName": "contracts/EtherCollateralpUSD.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Pausable.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./MixinResolver.sol",
+        "./interfaces/IEtherCollateralpUSD.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IExchangeRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EtherCollateralpUSD"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IEtherCollateralpUSD.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "bcf8ec6a40f7634349c0c480f2b01ff8",
+      "sourceName": "contracts/interfaces/IEtherCollateralpUSD.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IEtherCollateralpUSD"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Issuer.sol": {
+      "lastModificationDate": 1612427523103,
+      "contentHash": "83edaa11f9b51701049a29c32a09c5f0",
+      "sourceName": "contracts/Issuer.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IIssuer.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPeriFinState.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IDelegateApprovals.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IEtherCollateral.sol",
+        "./interfaces/IEtherCollateralpUSD.sol",
+        "./interfaces/IHasBalance.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/ILiquidations.sol",
+        "./interfaces/ICollateralManager.sol",
+        "./interfaces/IDebtCache.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IIssuerInternalDebtCache",
+        "IRewardEscrowV2",
+        "Issuer"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IDelegateApprovals.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "4ffc38255d53ffe96e7243d21ce62057",
+      "sourceName": "contracts/interfaces/IDelegateApprovals.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IDelegateApprovals"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IEtherCollateral.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "807687577bc835f9253349c14d69bb15",
+      "sourceName": "contracts/interfaces/IEtherCollateral.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IEtherCollateral"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IHasBalance.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "39d1311a979e5c425172331c566ed355",
+      "sourceName": "contracts/interfaces/IHasBalance.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IHasBalance"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/ILiquidations.sol": {
+      "lastModificationDate": 1612427523265,
+      "contentHash": "02b72b2fc06d18035d8089cf923b4005",
+      "sourceName": "contracts/interfaces/ILiquidations.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "ILiquidations"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IDebtCache.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "9518a3708be1b8a8d5e463aa9b905534",
+      "sourceName": "contracts/interfaces/IDebtCache.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPynth.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IDebtCache"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/IssuerWithoutLiquidations.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "3c0ca4fe70bc5cf45ae38231690206c8",
+      "sourceName": "contracts/IssuerWithoutLiquidations.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Issuer.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "IssuerWithoutLiquidations"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Exchanger.sol": {
+      "lastModificationDate": 1612427523042,
+      "contentHash": "9400338de958b1d80891f3515cf93ba9",
+      "sourceName": "contracts/Exchanger.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IExchanger.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IExchangeState.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IDelegateApprovals.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/ITradingRewards.sol",
+        "./interfaces/IDebtCache.sol",
+        "./interfaces/IVirtualPynth.sol",
+        "./Proxyable.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Exchanger",
+        "IExchangerInternalDebtCache",
+        "IPeriFinInternal"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IExchangeState.sol": {
+      "lastModificationDate": 1612427523271,
+      "contentHash": "194915460cbd635caf829d9b6db09d0a",
+      "sourceName": "contracts/interfaces/IExchangeState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IExchangeState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ExchangerWithVirtualPynth.sol": {
+      "lastModificationDate": 1612427523097,
+      "contentHash": "15a0e64ae921bbc86cf37332e3adf2c8",
+      "sourceName": "contracts/ExchangerWithVirtualPynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Exchanger.sol",
+        "./interfaces/IVirtualPynth.sol",
+        "./VirtualPynth.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExchangerWithVirtualPynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/VirtualPynth.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "6651a809856a8007754b0b5e3fa306c3",
+      "sourceName": "contracts/VirtualPynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IAddressResolver.sol",
+        "./interfaces/IVirtualPynth.sol",
+        "./interfaces/IExchanger.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "VirtualPynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1612426453305,
+      "contentHash": "3f825c32255caaa4b3b09a9933e8c7ac",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/MintablePeriFin.sol": {
+      "lastModificationDate": 1612429314367,
+      "contentHash": "160c58855d3f39e930d6cdd671b0f19e",
+      "sourceName": "contracts/MintablePeriFin.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BasePeriFin.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "MintablePeriFin"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/FeePool.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "e92fc375e806c08eca1b1003cbb43f46",
+      "sourceName": "contracts/FeePool.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Proxyable.sol",
+        "./LimitedSetup.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IFeePool.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IPeriFin.sol",
+        "./FeePoolState.sol",
+        "./FeePoolEternalStorage.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/IPeriFinState.sol",
+        "./interfaces/IRewardEscrowV2.sol",
+        "./interfaces/IDelegateApprovals.sol",
+        "./interfaces/IRewardsDistribution.sol",
+        "./interfaces/IEtherCollateralpUSD.sol",
+        "./interfaces/ICollateralManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "FeePool"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/FeePoolState.sol": {
+      "lastModificationDate": 1612427523146,
+      "contentHash": "f8f765b17d5cfb741a43dabc4f5e1fea",
+      "sourceName": "contracts/FeePoolState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./LimitedSetup.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IFeePool.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "FeePoolState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/FeePoolEternalStorage.sol": {
+      "lastModificationDate": 1612427523097,
+      "contentHash": "75f6541457b03ca20454847d2d4d340f",
+      "sourceName": "contracts/FeePoolEternalStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EternalStorage.sol",
+        "./LimitedSetup.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "FeePoolEternalStorage"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EternalStorage.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "32cd830457a6a554cb222506d711d933",
+      "sourceName": "contracts/EternalStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EternalStorage"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/MultiCollateralPynth.sol": {
+      "lastModificationDate": 1612427523037,
+      "contentHash": "e578e81d6477676ba663a7f20a1e808e",
+      "sourceName": "contracts/MultiCollateralPynth.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Pynth.sol",
+        "./interfaces/ICollateralManager.sol",
+        "./interfaces/IEtherCollateralpUSD.sol",
+        "./interfaces/IEtherCollateral.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "MultiCollateralPynth"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EtherCollateral.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "bd42ae288a0d1efc980a8d6f1015b41d",
+      "sourceName": "contracts/EtherCollateral.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Pausable.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./MixinResolver.sol",
+        "./interfaces/IEtherCollateral.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IFeePool.sol",
+        "./interfaces/IPynth.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IDepot.sol",
+        "./interfaces/IExchangeRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EtherCollateral"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/interfaces/IDepot.sol": {
+      "lastModificationDate": 1612427523270,
+      "contentHash": "0291104cf37975c99dc2e7e0fba99a52",
+      "sourceName": "contracts/interfaces/IDepot.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24"
+      ],
+      "artifacts": [
+        "IDepot"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Depot.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "0cd82703e7c6a694aa82d5f38d6e49dc",
+      "sourceName": "contracts/Depot.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Pausable.sol",
+        "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol",
+        "./MixinResolver.sol",
+        "./interfaces/IDepot.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IExchangeRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Depot"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/DebtCache.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "01a9260b152fb46e0047f7debfb5f07a",
+      "sourceName": "contracts/DebtCache.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IDebtCache.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/IExchanger.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/ISystemStatus.sol",
+        "./interfaces/IEtherCollateral.sol",
+        "./interfaces/IEtherCollateralpUSD.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/ICollateralManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "DebtCache"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/RealtimeDebtCache.sol": {
+      "lastModificationDate": 1612427523026,
+      "contentHash": "64c4e11bef2a1e64a38e5800e300315a",
+      "sourceName": "contracts/RealtimeDebtCache.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DebtCache.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "RealtimeDebtCache"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Liquidations.sol": {
+      "lastModificationDate": 1612427523042,
+      "contentHash": "9ff1d6be0ac3716f2177c5f21423a40b",
+      "sourceName": "contracts/Liquidations.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/ILiquidations.sol",
+        "./SafeDecimalMath.sol",
+        "./EternalStorage.sol",
+        "./interfaces/IPeriFin.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/ISystemStatus.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Liquidations"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PeriFinState.sol": {
+      "lastModificationDate": 1612427896995,
+      "contentHash": "ebfe397724db29b02c6d8ffe4e915068",
+      "sourceName": "contracts/PeriFinState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol",
+        "./LimitedSetup.sol",
+        "./interfaces/IPeriFinState.sol",
+        "./SafeDecimalMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PeriFinState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ExchangeState.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "0591b7be6da7a05ed40304724d521b44",
+      "sourceName": "contracts/ExchangeState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol",
+        "./interfaces/IExchangeState.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExchangeState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralManagerState.sol": {
+      "lastModificationDate": 1612424869676,
+      "contentHash": "031309eb2eda06d7d0e267c31f459f4a",
+      "sourceName": "contracts/CollateralManagerState.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./State.sol",
+        "./SafeDecimalMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralManagerState"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/CollateralManager.sol": {
+      "lastModificationDate": 1612424869675,
+      "contentHash": "f9a64fe54181e18870b522e9396bd16a",
+      "sourceName": "contracts/CollateralManager.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./Pausable.sol",
+        "./MixinResolver.sol",
+        "./interfaces/ICollateralManager.sol",
+        "./AddressSetLib.sol",
+        "./Bytes32SetLib.sol",
+        "./SafeDecimalMath.sol",
+        "./CollateralManagerState.sol",
+        "./interfaces/IIssuer.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./interfaces/IDebtCache.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IPynth.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "CollateralManager"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/AddressSetLib.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "c71e0cf013b8dd4a2118a05bf8fb8034",
+      "sourceName": "contracts/AddressSetLib.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "AddressSetLib"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Bytes32SetLib.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "2cd63c337c5bccb476b7b37a469abd5b",
+      "sourceName": "contracts/Bytes32SetLib.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "Bytes32SetLib"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ProxyERC20.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "0095b20aa79d35cf387ebc1680642b19",
+      "sourceName": "contracts/ProxyERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ProxyERC20"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/PeriFinEscrow.sol": {
+      "lastModificationDate": 1612427896994,
+      "contentHash": "0254201c87002901a98fe4302b05a906",
+      "sourceName": "contracts/PeriFinEscrow.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./LimitedSetup.sol",
+        "./interfaces/IHasBalance.sol",
+        "./SafeDecimalMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IPeriFin.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "PeriFinEscrow"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ImportableRewardEscrowV2.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "82fc071af4f261bf3a0adf12115f85bc",
+      "sourceName": "contracts/ImportableRewardEscrowV2.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseRewardEscrowV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ImportableRewardEscrowV2"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/DelegateApprovals.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "242bc8eee94fb60d981c53aad39173c4",
+      "sourceName": "contracts/DelegateApprovals.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./interfaces/IDelegateApprovals.sol",
+        "./EternalStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "DelegateApprovals"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EmptyCollateralManager.sol": {
+      "lastModificationDate": 1612424869686,
+      "contentHash": "b689fe4783ca68d7801a9df597efe1a1",
+      "sourceName": "contracts/EmptyCollateralManager.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/ICollateralManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EmptyCollateralManager"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/FlexibleStorage.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "f4c63d9bd86d1f44dca8e639ff1ecaec",
+      "sourceName": "contracts/FlexibleStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ContractStorage.sol",
+        "./interfaces/IFlexibleStorage.sol",
+        "./interfaces/IAddressResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "FlexibleStorage"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ContractStorage.sol": {
+      "lastModificationDate": 1612427523020,
+      "contentHash": "2347d68d083c47983d9dc9146e3b968a",
+      "sourceName": "contracts/ContractStorage.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IAddressResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ContractStorage"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ExchangeRates.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "55ad80f6eb600478ef19f1b50282160e",
+      "sourceName": "contracts/ExchangeRates.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol",
+        "./MixinResolver.sol",
+        "./MixinSystemSettings.sol",
+        "./interfaces/IExchangeRates.sol",
+        "./SafeDecimalMath.sol",
+        "@chainlink/contracts/src/v0.5/interfaces/AggregatorV2V3Interface.sol",
+        "@chainlink/contracts/src/v0.5/interfaces/FlagsInterface.sol",
+        "./interfaces/IExchanger.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExchangeRates"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/@chainlink/contracts/src/v0.5/interfaces/AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1612427018892,
+      "contentHash": "5eb3157f8c1ed9ff81e0cd5f0d29aaea",
+      "sourceName": "@chainlink/contracts/src/v0.5/interfaces/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/@chainlink/contracts/src/v0.5/interfaces/FlagsInterface.sol": {
+      "lastModificationDate": 1612427018892,
+      "contentHash": "f8414dedd43b6cd002b91bb5bb72214d",
+      "sourceName": "@chainlink/contracts/src/v0.5/interfaces/FlagsInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "FlagsInterface"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/@chainlink/contracts/src/v0.5/interfaces/AggregatorInterface.sol": {
+      "lastModificationDate": 1612427018891,
+      "contentHash": "ba27052bbed2c50d1a695546d2958667",
+      "sourceName": "@chainlink/contracts/src/v0.5/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/@chainlink/contracts/src/v0.5/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1612427018892,
+      "contentHash": "5dbfd66d092d26908cc9c6b1d9194795",
+      "sourceName": "@chainlink/contracts/src/v0.5/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/ExchangeRatesWithoutInvPricing.sol": {
+      "lastModificationDate": 1612427523158,
+      "contentHash": "78928053d2e21316678ebecf400729dd",
+      "sourceName": "contracts/ExchangeRatesWithoutInvPricing.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ExchangeRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "ExchangeRatesWithoutInvPricing"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/DappMaintenance.sol": {
+      "lastModificationDate": 1612427522990,
+      "contentHash": "2d2d5958d0dc39ddf773ff6fd5434521",
+      "sourceName": "contracts/DappMaintenance.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Owned.sol"
+      ],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "DappMaintenance"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EmptyEtherCollateral.sol": {
+      "lastModificationDate": 1612427523151,
+      "contentHash": "5af207b9cc5d95e4056396148b0bc804",
+      "sourceName": "contracts/EmptyEtherCollateral.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EmptyEtherCollateral"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/EscrowChecker.sol": {
+      "lastModificationDate": 1612427523150,
+      "contentHash": "58aab721e1ad0360804bb9c293a82ff9",
+      "sourceName": "contracts/EscrowChecker.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.16"
+      ],
+      "artifacts": [
+        "EscrowChecker",
+        "IPeriFinEscrow"
+      ]
+    },
+    "/Users/apple/eth/perifin/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1612421796110,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/apple/eth/perifin/contracts/Token.sol": {
+      "lastModificationDate": 1612429743539,
+      "contentHash": "d90a1063130d383e061cb00b4a6af8a7",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.13"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    }
+  }
+}
