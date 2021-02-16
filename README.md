@@ -1,5 +1,5 @@
-# Peri Finance
-Peri Finance smart contracts implementing with Solidity
+# PeriFin
+PeriFin smart contracts which is implementation of Peri finance dApp, which is going to be converted to WSAS.  
 
 ### A Decentralized Delta-One Asset Protocol
 PERI Finance is a decentralized cross-chain synthetic issuance and derivative exchange protocol that provides unlimited liquidity on Polkadot network. With PERI fianance, Anyone can access traditional financial products and crypto assets without hustles and bustles. Additionally, PERI Finance provides solutions to current issues suffering Defi-projects on Ethereum including absurdly high GAS fee, slow transaction speed and the possibility of various attacks such as front running and flash loan by harnessing Layer2 with OVM(Optimistic Virtual Machine).
